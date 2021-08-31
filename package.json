@@ -1,6 +1,6 @@
 {
   "name": "geovisto-layer-tiles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Geovisto tool which provides the tile layer",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -48,7 +48,7 @@
     "autoprefixer": "^10.3.1",
     "eslint": "^7.31.0",
     "geovisto": "^1.0.0",
-    "geovisto-themes": "^1.0.0",
+    "geovisto-themes": "^1.0.1",
     "husky": "^7.0.1",
     "leaflet": "^1.7.1",
     "postcss": "^8.3.6",

@@ -1,4 +1,4 @@
-# Geovisto Tile Layer Tool
+# Geovisto Tiles Layer Tool
 Extension of the [Geovisto core library](https://github.com/geovisto/geovisto) which provides the tile layer.
 
 This repository is a snapshot of Geoviosto ``tools/layers/tiles`` derived from the development repository: [geovisto/geovisto-map](https://github.com/geovisto/geovisto-map).
@@ -39,7 +39,6 @@ map.draw(Geovisto.getMapConfigManagerFactory().default({
       "type": "geovisto-tool-layer-tiles",
       "id": "geovisto-tool-layer-tiles",
       "enabled": true,
-      "name?": "Tiles layer"
     },
   ]
 }));
@@ -60,6 +59,6 @@ This package serves as an extension of Geovisto core using the API for Geovisto 
 
 ## License
 
-[MIT](https://github.com/geovisto/geovisto-themes/blob/master/LICENSE)
+[MIT](https://github.com/geovisto/geovisto-layer-tiles/blob/master/LICENSE)
 
 Note that the tool allows to refer URL of [tile layer providers](https://github.com/leaflet-extras/leaflet-providers) ([examples](http://leaflet-extras.github.io/leaflet-providers/preview/index.html)). Make sure you use them with respect to license of the tiles providers.
